@@ -1,0 +1,6 @@
+E:\Projects\ScreenCaptureReconizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureReconizer\ScreenCapture\obj\Debug\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureReconizer\ScreenCapture\obj\Debug\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.pdb
