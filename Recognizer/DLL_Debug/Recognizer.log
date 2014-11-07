@@ -1,0 +1,56 @@
+﻿Build started 2014/11/7 16:26:22.
+     1>Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" on node 2 (Rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "DLL_Debug\Recognizer.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D RECOGNIZER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"DLL_Debug\\" /Fd"DLL_Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Recognizer.cpp
+         Recognizer.cpp
+     1>e:\projects\screencapturerecognizer\recognizer\recognizer.h(5): warning C4005: 'RECOGNIZER_EXPORTS' : macro redefinition
+                 command-line arguments :  see previous definition of 'RECOGNIZER_EXPORTS'
+     1>e:\projects\screencapturerecognizer\include\tesseract\strngs.h(72): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\projects\screencapturerecognizer\include\leptonica\environ.h(446): warning C4005: 'snprintf' : macro redefinition
+                 e:\projects\screencapturerecognizer\include\tesseract\platform.h(31) : see previous definition of 'snprintf'
+     1>e:\projects\screencapturerecognizer\include\leptonica\pix.h(209): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>e:\projects\screencapturerecognizer\include\leptonica\pix.h(211): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>e:\projects\screencapturerecognizer\recognizer\recognizer.cpp(197): warning C4101: 'len' : unreferenced local variable
+     1>e:\projects\screencapturerecognizer\recognizer\recognizer.cpp(280): warning C4101: 'len' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\ScreenCaptureRecognizer\DLL_Debug\Recognizer.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\lib ws2_32.lib user32.lib liblept171d.lib libtesseract304d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\ScreenCaptureRecognizer\DLL_Debug\Recognizer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\ScreenCaptureRecognizer\DLL_Debug\Recognizer.lib" /MACHINE:X86 /DLL DLL_Debug\Recognizer.obj
+            Creating library E:\Projects\ScreenCaptureRecognizer\DLL_Debug\Recognizer.lib and object E:\Projects\ScreenCaptureRecognizer\DLL_Debug\Recognizer.exp
+         Recognizer.vcxproj -> E:\Projects\ScreenCaptureRecognizer\DLL_Debug\Recognizer.dll
+       PostBuildEvent:
+         xcopy /Y /I /E "E:\Projects\ScreenCaptureRecognizer\lib\tessdata" "E:\Projects\ScreenCaptureRecognizer\DLL_Debug\tessdata" 
+         :VCEnd
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\eng.traineddata
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\ambigs.train
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\api_config
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\bigram
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\box.train
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\box.train.stderr
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\digits
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\hocr
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\inter
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\kannada
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\linebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\logfile
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\makebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\quiet
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\rebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\strokewidth
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\unlv
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\batch
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\batch.nochop
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\matdemo
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\msdemo
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\nobatch
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\segdemo
+         23 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "DLL_Debug\Recognizer.tlog\unsuccessfulbuild".
+         Touching "DLL_Debug\Recognizer.tlog\Recognizer.lastbuildstate".
+     1>Done Building Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.30

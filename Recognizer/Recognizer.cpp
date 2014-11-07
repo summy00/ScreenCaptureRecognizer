@@ -104,10 +104,10 @@ Pix* getSubRectPixel(Pix* pixel, int x, int y, int w, int h)
 	//int res = pixWrite("cropped.png", cropped, IFF_PNG);
 
 	PIX *pixt1, *pixt2;
-	pixt1 = pixScale(cropped, 4, 4);
+	pixt1 = pixScale(cropped, 5, 5);
 	//res = pixWrite("scaled.png", pixt1, IFF_PNG);
 
-	pixt2 = pixUnsharpMasking(pixt1, 6, 0.5);
+	pixt2 = pixUnsharpMasking(pixt1, 10, 0.5);
 	//res = pixWrite("smoothed.png", pixt2, IFF_PNG);
 	pixDestroy(&pixt1);
 

@@ -4,3 +4,14 @@ E:\Projects\ScreenCaptureReconizer\ScreenCapture\obj\Debug\ScreenCaptureReconize
 E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.exe.config
 E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.exe
 E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\Debug\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\Debug\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\Debug\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\Debug\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\DLL_Debug\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\DLL_Debug\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\DLL_Debug\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\Debug\OCR.Form1.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\Debug\ScreenCaptureReconizer.Properties.Resources.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\Debug\ScreenCapture.csproj.GenerateResource.Cache
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\Debug\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\Debug\ScreenCaptureReconizer.pdb

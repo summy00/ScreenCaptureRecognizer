@@ -1,0 +1,53 @@
+﻿Build started 2014/11/7 16:27:02.
+     1>Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" on node 2 (Rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "LIB_Release\Recognizer.tlog\Recognizer.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "LIB_Release\Recognizer.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RECOGNIZER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"LIB_Release\\" /Fd"LIB_Release\vc120.pdb" /Gd /TP /wd4244 /wd4305 /wd4018 /wd4267 /wd4996 /wd4800 /wd4005 /wd4355 /wd4099 /wd4566 /analyze- /errorReport:prompt Recognizer.cpp
+         Recognizer.cpp
+     1>Recognizer.cpp(197): warning C4101: 'len' : unreferenced local variable
+     1>Recognizer.cpp(280): warning C4101: 'len' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\ScreenCaptureRecognizer\LIB_Release\Recognizer.dll" /NOLOGO /LIBPATH:..\lib ws2_32.lib user32.lib "zlib128-static-mtdll.lib" "libpng143-static-mtdll.lib" "libjpeg8c-static-mtdll.lib" "giflib416-static-mtdll.lib" "libtiff394-static-mtdll.lib" "liblept171-static-mtdll.lib" "libtesseract304-static.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\ScreenCaptureRecognizer\LIB_Release\Recognizer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\ScreenCaptureRecognizer\LIB_Release\Recognizer.lib" /MACHINE:X86 /SAFESEH /DLL LIB_Release\Recognizer.obj
+            Creating library E:\Projects\ScreenCaptureRecognizer\LIB_Release\Recognizer.lib and object E:\Projects\ScreenCaptureRecognizer\LIB_Release\Recognizer.exp
+         Generating code
+         Finished generating code
+         Recognizer.vcxproj -> E:\Projects\ScreenCaptureRecognizer\LIB_Release\Recognizer.dll
+       PostBuildEvent:
+         xcopy /Y /I /E "E:\Projects\ScreenCaptureRecognizer\lib\tessdata" "E:\Projects\ScreenCaptureRecognizer\LIB_Release\tessdata" 
+         
+         :VCEnd
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\eng.traineddata
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\ambigs.train
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\api_config
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\bigram
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\box.train
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\box.train.stderr
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\digits
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\hocr
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\inter
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\kannada
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\linebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\logfile
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\makebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\quiet
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\rebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\strokewidth
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\unlv
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\batch
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\batch.nochop
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\matdemo
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\msdemo
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\nobatch
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\segdemo
+         23 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "LIB_Release\Recognizer.tlog\unsuccessfulbuild".
+         Touching "LIB_Release\Recognizer.tlog\Recognizer.lastbuildstate".
+     1>Done Building Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.58

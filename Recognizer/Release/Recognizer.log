@@ -1,5 +1,31 @@
-﻿Build started 11/6/2014 9:20:35 PM.
+﻿Build started 2014/11/7 13:45:57.
+     1>Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Recognizer.tlog\unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\include /Zi /nologo /W3 /WX- /sdl- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D RECOGNIZER_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Recognizer.cpp
+         Recognizer.cpp
+     1>e:\projects\screencapturerecognizer\recognizer\Recognizer.h(5): warning C4005: 'RECOGNIZER_EXPORTS' : macro redefinition
+                 command-line arguments :  see previous definition of 'RECOGNIZER_EXPORTS'
+     1>E:\Projects\ScreenCaptureRecognizer\include\tesseract\strngs.h(72): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>e:\projects\screencapturerecognizer\include\leptonica\environ.h(446): warning C4005: 'snprintf' : macro redefinition
+                 e:\projects\screencapturerecognizer\include\tesseract\platform.h(31) : see previous definition of 'snprintf'
+     1>e:\projects\screencapturerecognizer\include\leptonica\pix.h(209): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>e:\projects\screencapturerecognizer\include\leptonica\pix.h(211): warning C4305: 'initializing' : truncation from 'double' to 'const l_float32'
+     1>Recognizer.cpp(197): warning C4101: 'len' : unreferenced local variable
+     1>Recognizer.cpp(280): warning C4101: 'len' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\ScreenCaptureRecognizer\Release\Recognizer.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib ws2_32.lib user32.lib liblept171.lib libtesseract304.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\ScreenCaptureRecognizer\Release\Recognizer.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\ScreenCaptureRecognizer\Release\Recognizer.lib" /MACHINE:X86 /SAFESEH /DLL Release\Recognizer.obj
+            Creating library E:\Projects\ScreenCaptureRecognizer\Release\Recognizer.lib and object E:\Projects\ScreenCaptureRecognizer\Release\Recognizer.exp
+         Generating code
+         Finished generating code
+         Recognizer.vcxproj -> E:\Projects\ScreenCaptureRecognizer\Release\Recognizer.dll
+       FinalizeBuildStatus:
+         Deleting file "Release\Recognizer.tlog\unsuccessfulbuild".
+         Touching "Release\Recognizer.tlog\Recognizer.lastbuildstate".
+     1>Done Building Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:01.79

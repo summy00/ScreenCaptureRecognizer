@@ -1,0 +1,11 @@
+E:\Projects\ScreenCaptureRecognizer\Release\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\Release\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\Release\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\DLL_Release\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\DLL_Release\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\DLL_Release\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\DLL_Release\OCR.Form1.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\DLL_Release\ScreenCaptureReconizer.Properties.Resources.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\DLL_Release\ScreenCapture.csproj.GenerateResource.Cache
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\DLL_Release\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\DLL_Release\ScreenCaptureReconizer.pdb

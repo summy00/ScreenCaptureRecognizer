@@ -1,1 +1,15 @@
 E:\FKW\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\LIB_DEBUG\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\Debug\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\Debug\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\Debug\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_DEBUG\OCR.Form1.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_DEBUG\ScreenCaptureReconizer.Properties.Resources.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_DEBUG\ScreenCapture.csproj.GenerateResource.Cache
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_DEBUG\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_DEBUG\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\$(SolutionDir)$(Configuration)\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\$(SolutionDir)$(Configuration)\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\$(SolutionDir)$(Configuration)\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\LIB_DEBUG\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\LIB_DEBUG\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\LIB_DEBUG\ScreenCaptureReconizer.pdb

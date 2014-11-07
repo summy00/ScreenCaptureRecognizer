@@ -1,5 +1,45 @@
-﻿Build started 11/6/2014 9:20:31 PM.
+﻿Build started 2014/11/7 15:48:37.
+     1>Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Recognizer.tlog\unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Projects\ScreenCaptureRecognizer\Debug\Recognizer.dll" /INCREMENTAL /NOLOGO /LIBPATH:..\lib ws2_32.lib user32.lib liblept171d.lib libtesseract304d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Projects\ScreenCaptureRecognizer\Debug\Recognizer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Projects\ScreenCaptureRecognizer\Debug\Recognizer.lib" /MACHINE:X86 /DLL Debug\Recognizer.obj
+            Creating library E:\Projects\ScreenCaptureRecognizer\Debug\Recognizer.lib and object E:\Projects\ScreenCaptureRecognizer\Debug\Recognizer.exp
+         Recognizer.vcxproj -> E:\Projects\ScreenCaptureRecognizer\Debug\Recognizer.dll
+       PostBuildEvent:
+         xcopy /Y /I /E "E:\Projects\ScreenCaptureRecognizer\lib\tessdata" "E:\Projects\ScreenCaptureRecognizer\Debug\tessdata" 
+         :VCEnd
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\eng.traineddata
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\ambigs.train
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\api_config
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\bigram
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\box.train
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\box.train.stderr
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\digits
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\hocr
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\inter
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\kannada
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\linebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\logfile
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\makebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\quiet
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\rebox
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\strokewidth
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\configs\unlv
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\batch
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\batch.nochop
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\matdemo
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\msdemo
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\nobatch
+         E:\Projects\ScreenCaptureRecognizer\lib\tessdata\tessconfigs\segdemo
+         23 File(s) copied
+       FinalizeBuildStatus:
+         Deleting file "Debug\Recognizer.tlog\unsuccessfulbuild".
+         Touching "Debug\Recognizer.tlog\Recognizer.lastbuildstate".
+     1>Done Building Project "E:\Projects\ScreenCaptureRecognizer\Recognizer\Recognizer.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.00
+Time Elapsed 00:00:00.94

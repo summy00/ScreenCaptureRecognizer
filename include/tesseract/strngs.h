@@ -69,9 +69,7 @@ class TESS_API STRING
 
     inline char* strdup() const {
      inT32 len = length() + 1;
-	 char *resStr = new char[len];
-	 strncpy_s(resStr, len, GetCStr(), len);
-     return resStr;
+     return strncpy(new char[len], GetCStr(), len);
     }
 
 #if STRING_IS_PROTECTED

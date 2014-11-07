@@ -1,0 +1,9 @@
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\bin\LIB_Release\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\LIB_Release\ScreenCaptureReconizer.exe.config
+E:\Projects\ScreenCaptureRecognizer\LIB_Release\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\LIB_Release\ScreenCaptureReconizer.pdb
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_Release\OCR.Form1.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_Release\ScreenCaptureReconizer.Properties.Resources.resources
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_Release\ScreenCapture.csproj.GenerateResource.Cache
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_Release\ScreenCaptureReconizer.exe
+E:\Projects\ScreenCaptureRecognizer\ScreenCapture\obj\LIB_Release\ScreenCaptureReconizer.pdb
